@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 0.625rem;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.fa-heart {
+  color: red;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+small span {
+  color: red;
+}
+
+small {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.loveme {
+  height: 440px;
+  width: 300px;
+  background-image: url("https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNhcnN8ZW58MHx8MHx8&w=1000&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5), 0 5px 11px rgba(0, 0, 0, 0.5);
+  margin: auto;
+  max-width: 100%;
+  position: relative;
+}
+
+.loveme .fa-heart {
+  position: absolute;
+  animation: grow .6s linear;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+@keyframes grow {
+  to {
+    transform: translate(-50%, -50%) scale(10);
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
